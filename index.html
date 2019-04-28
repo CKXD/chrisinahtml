@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
+        <link rel="stylesheet" href="./css/style.css">
         <!--Import Google Icon Font-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
@@ -21,16 +22,15 @@
           
           <div class="navbar-fixed">  
             
-            <nav>
-              <div class="nav-wrapper green">
+            <nav class="transparent">
+              <div class="nav-wrapper">
                 <div class="container">  
-                      <a href="#!" class="brand-logo">Logo</a>
-                      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                      <a href="#!" class="brand-logo text-yellow text-lighten 2"> Logo </a>
+                      <a href="#" data-activates="mobile-demo" class="btn-floating btn-large grey hide-on-large-only"><i class="material-icons grey lighten-3 black-text">menu</i></a>
                       <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="" class="dropdown-button" data-activates="dropdown1">Dopdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="" class="dropdown-button" data-activates="dropdown1">Kategorien<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#">Über uns</a></li>
                       </ul>
                   </div>  
               </div>  
@@ -39,20 +39,22 @@
           
          </div>
                 <ul id="dropdown1" class="dropdown-content">
-                    <li><a href="#!">WoMo</a></li>
-                    <li><a href="#!">Radtourem</a></li>
-                    <li><a href="#!">Wettkämpfe</a></li> 
-                    <li><a href="#!">Allerlei</a></li>
+                    <li><a href="#!">Wohnmobil</a></li>
                     <li class="divider"></li>
-                    <li><a href="#!">three</a></li>
+                    <li><a href="#!">Radtourem</a></li>
+                    <li><a href="#!">Wettkämpfe</a></li>
+                    <li class="divider"></li> 
+                    <li><a href="#!">Allerlei</a></li>
+
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="#">Start</a></li> 
-                    <li><a href="#">Start</a></li> 
-                    <li><a href="#">WoMo</a></li>
-                    <li><a href="#">Radtourem</a></li>
-                    <li><a href="#">Wettkämpfe</a></li> 
-                    <li><a href="#">Allerlei</a></li>
+                    <li><a href="#!">Wohnmobil</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Radtourem</a></li>
+                    <li><a href="#!">Wettkämpfe</a></li>
+                    <li class="divider"></li> 
+                    <li><a href="#!">Allerlei</a></li>
                     <li><a href="#">Über uns</a></li>
                 </ul>
                  
@@ -125,21 +127,23 @@
             
         </div>
     </main>
-      <div class="green">
-        <footer class="page-footer green">
-                  
-          © 2019 Copyright Text
+    <footer class="page-footer transparent">
+         <div class="footer-copyright">
+          <div class="container">
+          © 2019 Copyright Christoph Ketzer
           <a class="grey-text text-lighten-4 right" href="#!">Impressum</a>
-      
-        </footer>
-  
+          </div>
+        </div>
+      </footer>
+                
+        
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
        <script>
-          $(".button-collapse").sideNav();
+          $(".btn-floating").sideNav();
        </script>
     
 </body>

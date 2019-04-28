@@ -2,16 +2,18 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    margin: 0 auto;
-    margin-top: 5px;
-    background-color:#c8e6c9 ;
-    max-width: 1800px;
-    min-width: 580px;
-  scroll-behavior: auto;
-
-
+    background-color:rgb(145, 212, 145);
+    min-width: 360px;
   }
-
-  main {
-    flex: 1 0 auto;
+  header{
+    background: url(../data/friedhof2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 430px;
   }
+  @media screen and (max-width: 990px){
+    header{
+      min-height: 215px;
+    }
+  }
+  

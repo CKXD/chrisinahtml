@@ -11,23 +11,37 @@
         <meta name="Author:" content="Christoph Ketzer">
         <meta name="twitter:" content="">
         <title>Chrisina on Tour</title>
+        <style>
+            header{
+              background: url(data/friedhof2.jpg);
+              background-size: cover;
+              background-position: center;
+              min-height: 430px;
+            }
+            @media screen and (max-width: 670px){
+              header{
+                min-height: 215px;
+              }
+            }
+          </style>
       </head>
 <body>
     <header>
         <!-- NAVIGATION -->
         <!-- DROPDOWN --><!-- MOBILE COLLAPSE -->
-        <div class="container">
-          <nav>
-            <div class="nav-wrapper blue">
-              <a href="#!" class="brand-logo">Logo</a>
-              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+       
+          <nav class="transparent">
+            <div class="nav-wrapper transparnet container">
+              <a href="#!" class="brand-logo grey col s1 offset-s2">Logo</a>
+              
+              <a href="#" data-activates="mobile-demo" class="btn-floating btn-large grey hide-on-large-only"><i class="material-icons">menu</i></a>
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="" class="dropdown-button" data-activates="dropdown1">Dopdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="" class="dropdown-button" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="#">Services</a></li>
               </ul>
-          </nav>        
+                  
               <ul id="dropdown1" class="dropdown-content">
                   <li><a href="#!">WoMo</a></li>
                   <li><a href="#!">Radtourem</a></li>
@@ -44,7 +58,10 @@
                   <li><a href="#">Allerlei</a></li>
                   <li><a href="#">Über uns</a></li>
               </ul>
-            </div>
+            </nav>
+            <div>
+            <!--<img class="responsive-img" src="data\friedhof2.jpg">-->
+  
       </header>
         
       <main>
@@ -127,7 +144,8 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 
        <script>
-          $(".button-collapse").sideNav();
+       
+          $(".btn-floating").sideNav();
        </script>
     
 </body>
