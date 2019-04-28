@@ -1,137 +1,134 @@
 <!DOCTYPE html>
-<html lang="de">
-<head>
-    
-        <meta charset="utf-8">
-          
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="Author:" content="Christoph Ketzer">
         <meta name="twitter:" content="">
         <title>Chrisina on Tour</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        
-
-      
-</head>
-
+      </head>
 <body>
-    <div class="container">
-        <header >
-            <nav>
-              <div class="nav-wrapper green lighten-2">
-                  <a href="#!" class="brand-logo">Chrisina Unterwegs</a>
-                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                  <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Start</a></li> 
-                    <li><a href="Womo.html">WoMo</a></li>
-                    <li><a href="Radtouren">Radtourem</a></li>
-                    <li><a href="Wettkämpfe.html">Wettkämpfe</a></li> 
-                    <li><a href="Sonstiges.html">Allerlei</a></li>
-                 </ul>   
-                </nav>
-
-                 <ul class="sidenav" id="mobile-demo">
-                   <li><a href="index.html">Start</a></li> 
-                   <li><a href="Womo.html">WoMo</a></li>
-                   <li><a href="Radtouren">Radtourem</a></li>
-                   <li><a href="Wettkämpfe.html">Wettkämpfe</a></li> 
-                   <li><a href="Sonstiges.html">Allerlei</a></li>
-                </ul>
-
-        </header>   
-      </div>
-    <main>
+    <header>
+        <!-- NAVIGATION -->
+        <!-- DROPDOWN --><!-- MOBILE COLLAPSE -->
         <div class="container">
-           <div class="row">
-                <div class="col s12 l6"> 
-                    <div class="card small">
-                        <div class="card-image">
-                          <img src="http://materializecss.com/images/sample-1.jpg">
-                          <span class="card-title">WoMo-Tagebuch</span>
-                        </div>
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">This is a link</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col s12 l6"> 
-                    <div class="card small s6">
-                        <div class="card-image">
-                          <img src="http://materializecss.com/images/sample-1.jpg">
-                          <span class="card-title">Radtouren</span>
-                        </div>
-                        <div class="card-content">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
-                        </div>
-                        <div class="card-action">
-                          <a href="#">This is a link</a>
-                        </div>
-                      </div>
-                </div>
-           </div>
-           <div class="row">
-            <div class="col s12 l6"> 
-                <div class="card small">
-                    <div class="card-image">
-                      <img src="http://materializecss.com/images/sample-1.jpg">
-                      <span class="card-title">Wettkämpfe</span>
-                    </div>
-                    <div class="card-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#">This is a link</a>
-                    </div>
-                  </div>
+          <nav>
+            <div class="nav-wrapper blue">
+              <a href="#!" class="brand-logo">Logo</a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="" class="dropdown-button" data-activates="dropdown1">Dopdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#">Services</a></li>
+              </ul>
+          </nav>        
+              <ul id="dropdown1" class="dropdown-content">
+                  <li><a href="#!">WoMo</a></li>
+                  <li><a href="#!">Radtourem</a></li>
+                  <li><a href="#!">Wettkämpfe</a></li> 
+                  <li><a href="#!">Allerlei</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#!">three</a></li>
+              </ul>
+              <ul class="side-nav" id="mobile-demo">
+                  <li><a href="#">Start</a></li> 
+                  <li><a href="#">WoMo</a></li>
+                  <li><a href="#">Radtourem</a></li>
+                  <li><a href="#">Wettkämpfe</a></li> 
+                  <li><a href="#">Allerlei</a></li>
+                  <li><a href="#">Über uns</a></li>
+              </ul>
             </div>
-            <div class="col s12 l6"> 
-                <div class="card small s6">
-                    <div class="card-image">
-                      <img src="http://materializecss.com/images/sample-1.jpg">
-                      <span class="card-title">Unsere bunte Welt</span>
-                    </div>
-                    <div class="card-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="#">This is a link</a>
-                    </div>
+      </header>
+        
+      <main>
+          <div class="container">
+             <div class="row">
+                  <div class="col s12 l6"> 
+                      <div class="card small">
+                          <div class="card-image">
+                            <img src="http://materializecss.com/images/sample-1.jpg">
+                            <span class="card-title">WoMo-Tagebuch</span>
+                          </div>
+                          <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">This is a link</a>
+                          </div>
+                        </div>
                   </div>
-            </div>
-       </div>
-           
-            
-        </div>
-    </main>
-    <div class="container">
-      <footer class="page-footer">
-                
-        © 2019 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">Impressum</a>
-    
-      </footer>
+                  <div class="col s12 l6"> 
+                      <div class="card small s6">
+                          <div class="card-image">
+                            <img src="http://materializecss.com/images/sample-1.jpg">
+                            <span class="card-title">Radtouren</span>
+                          </div>
+                          <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">This is a link</a>
+                          </div>
+                        </div>
+                  </div>
+             </div>
+             <div class="row">
+              <div class="col s12 l6"> 
+                  <div class="card small">
+                      <div class="card-image">
+                        <img src="http://materializecss.com/images/sample-1.jpg">
+                        <span class="card-title">Wettkämpfe</span>
+                      </div>
+                      <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">This is a link</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col s12 l6"> 
+                  <div class="card small s6">
+                      <div class="card-image">
+                        <img src="http://materializecss.com/images/sample-1.jpg">
+                        <span class="card-title">Unsere bunte Welt</span>
+                      </div>
+                      <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, voluptatum soluta aspernatur quod quaerat saepe accusamus ducimus dolore commodi, rem.</p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">This is a link</a>
+                      </div>
+                    </div>
+              </div>
+         </div>
+             
+              
+          </div>
+      </main>
+      <div class="container green">
+        <footer class="page-footer">
+                  
+          © 2019 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">Impressum</a>
+      
+        </footer>
+  
 
-    </div>
-        
-     
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+       <script>
+          $(".button-collapse").sideNav();
+       </script>
     
-        <!--JavaScript at end of body for optimized loading-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-        
-        <script>
-          // Sidenav
-          const sideNav = document.querySelector('.sidenav');
-          M.Sidenav.init(sideNav, {});
-        </script>
-       
 </body>
 </html>
