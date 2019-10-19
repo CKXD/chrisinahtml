@@ -1,21 +1,36 @@
+html {
+  background: url(../data/sommertour.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 1080px;
+
+}
+
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-color:rgb(145, 212, 145);
-    min-width: 360px;
+    min-width: 420px;
   }
-  header{
-    background: url(../data/friedhof2.jpg);
+  /*header{
+    background: url(../data/sommertour.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: center;
-    min-height: 430px;
-  }
+    min-height: 1080px;
+  }*/
   @media screen and (max-width: 990px){
     header{
-      min-height: 215px;
+      min-height: 0px;
     }
   }
-
+.overlap {
+  margin-top: 0px;
+  background-color: rgba(166, 201, 231, 0.6);
+  border-radius: 10px;
+  padding: 4px 4px 4px 4px;
+  
+}
   
   
